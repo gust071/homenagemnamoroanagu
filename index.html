@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História de Amor 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">💕 Nossa História</h1>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li><a href="#contador" class="nav-link">Dias Juntos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Nossa História de Amor</h1>
+            <p class="hero-subtitle">Uma jornada de amor, risadas e memórias inesquecíveis</p>
+            <div class="heart-animation">💕</div>
+        </div>
+    </section>
+
+    <!-- Contador de Dias -->
+    <section id="contador" class="contador-section">
+        <div class="contador-container">
+            <h2>Dias Juntos</h2>
+            <div class="contador-display">
+                <div class="contador-item">
+                    <span class="contador-number" id="dias">0</span>
+                    <span class="contador-label">Dias</span>
+                </div>
+                <div class="contador-item">
+                    <span class="contador-number" id="horas">0</span>
+                    <span class="contador-label">Horas</span>
+                </div>
+                <div class="contador-item">
+                    <span class="contador-number" id="minutos">0</span>
+                    <span class="contador-label">Minutos</span>
+                </div>
+            </div>
+            <p class="contador-text">Desde 16 de março de 2025 às 10:01</p>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="timeline-section">
+        <div class="timeline-container">
+            <h2>Nossos Momentos Especiais</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Tudo Começou</h3>
+                        <p class="timeline-date">16 de março de 2025 às 10:01</p>
+                        <p class="timeline-text">O dia em que nossas vidas mudaram para sempre. O início de uma história linda de amor e companheirismo.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Nosso Primeiro Beijo</h3>
+                        <p class="timeline-date">23 de dezembro</p>
+                        <p class="timeline-text">Um momento mágico que selou nossos sentimentos. Aquele beijo que mudou tudo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <section id="galeria" class="galeria-section">
+        <div class="galeria-container">
+            <h2>Nossa Galeria</h2>
+            <div class="galeria-grid" id="galeria-grid">
+                <!-- As fotos serão carregadas aqui via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para visualizar fotos em tamanho maior -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Feito com ❤️ para celebrar nosso amor</p>
+        <p>Última atualização: <span id="data-atual"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
