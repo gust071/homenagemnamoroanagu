@@ -1,5 +1,5 @@
-// Data do início do namoro: 16 de março de 2025 às 10:01
-const dataInicio = new Date(2025, 3, 23, 19, 0, 0); // Mês é 0-indexado (2 = março)
+// Data do início do namoro: 23 de março de 2025 às 19:00
+const dataInicio = new Date(2025, 2, 23, 19, 0, 0); // Mês é 0-indexado (2 = março)
 
 // Atualizar contador de dias
 function atualizarContador() {
