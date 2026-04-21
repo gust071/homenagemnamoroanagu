@@ -45,10 +45,10 @@ const dataInicio = new Date(2025, 2, 16, 10, 1, 0);
 
 Altere os números:
 - `2025` = ano
-- `2` = mês (0 = janeiro, 1 = fevereiro, 2 = março, etc.)
-- `16` = dia
-- `10` = hora
-- `1` = minuto
+- `3` = mês (0 = janeiro, 1 = fevereiro, 2 = março, etc.)
+- `28` = dia
+- `19` = hora
+- `0` = minuto
 
 ### Adicionar Mais Fotos
 1. Coloque as novas fotos na pasta `fotos/`
