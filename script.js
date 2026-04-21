@@ -1,5 +1,5 @@
 // Data do início do namoro: 16 de março de 2025 às 10:01
-const dataInicio = new Date(2025, 3, 28, 19, 0, 0); // Mês é 0-indexado (2 = março)
+const dataInicio = new Date(2025, 3, 23, 19, 0, 0); // Mês é 0-indexado (2 = março)
 
 // Atualizar contador de dias
 function atualizarContador() {
@@ -22,54 +22,6 @@ function carregarGaleria() {
     // Lista de fotos (nomes dos arquivos)
     const fotos = [
         'IMG_5440.jpeg',
-        'IMG_5439.jpeg',
-        'IMG_5392.jpeg',
-        'IMG_5209.jpeg',
-        'IMG_5082.jpeg',
-        'IMG_5012.jpeg',
-        'IMG_4991.jpeg',
-        'IMG_4987.jpeg',
-        'IMG_4978.jpeg',
-        'IMG_4935.jpeg',
-        'IMG_4663.jpeg',
-        'IMG_4513.jpeg',
-        'IMG_4461.jpeg',
-        'IMG_4454.jpeg',
-        'IMG_4397.jpeg',
-        'IMG_4354.jpeg',
-        'IMG_4321.jpeg',
-        'IMG_4228.jpeg',
-        'IMG_4173.jpeg',
-        'IMG_4169.jpeg',
-        'IMG_4148.jpeg',
-        'IMG_4145.jpeg',
-        'IMG_4103.jpeg',
-        'IMG_4044.jpeg',
-        'IMG_4042.jpeg',
-        'IMG_4027.jpeg',
-        'IMG_4013.jpeg',
-        'IMG_3990.jpeg',
-        'IMG_3940.jpeg',
-        'IMG_3944.jpeg',
-        'IMG_3870.jpeg',
-        'IMG_3867.jpeg',
-        'IMG_3856.jpeg',
-        'IMG_3858.jpeg',
-        'IMG_3749.jpeg',
-        'IMG_3723.jpeg',
-        'IMG_3718.jpeg',
-        'c36029c2-23ae-4abb-adb4-7eea5cd9eef3.jpeg',
-        'IMG_3665.jpeg',
-        '3F685EF3-8F82-41AD-BF1E-26E9E089176D.jpeg',
-        'IMG_3600.jpeg',
-        'IMG_3596.jpeg',
-        'IMG_3539.jpeg',
-        'a4da6521-d006-4abc-a0c8-c8410999847c.jpeg',
-        'IMG_3417.jpeg',
-        'IMG_3416.jpeg',
-        'IMG_3372.jpeg',
-        'IMG_3371.jpeg',
-        'IMG_3241.jpeg',
         'IMG_2947.jpeg'
     ];
 
